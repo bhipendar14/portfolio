@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+
+
 import "./Home.css";
 
 function Home() {
@@ -95,13 +97,15 @@ function Home() {
       </div>
 
       <motion.img
-        src="src/assets/1.jpg"
-        alt="Bhipendar Kumar"
-        className="home-img"
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1, delay: 0.8 }}
-      />
+     
+      src="/1.jpg"  
+      alt="Bhipendar Kumar"
+      className="home-img"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1, delay: 0.8 }}
+    />
+     
     </section>
   );
 }
