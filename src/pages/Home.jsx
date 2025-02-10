@@ -95,7 +95,7 @@ function Home() {
       </div>
 
       <motion.img
-        src="./public/1.jpg"
+        src="src/assets/1.jpg"
         alt="Bhipendar Kumar"
         className="home-img"
         initial={{ opacity: 0, scale: 0.5 }}
